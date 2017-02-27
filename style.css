@@ -1,0 +1,52 @@
+
+.border {
+	width: 1024px;
+	height: 1024px;
+	position: relative;
+    left: 50%;
+    margin-left: -360px;
+	
+}
+.wraper {
+	width: 494px;
+	position: relative;
+    left: 50%;
+    margin-left: -360px;
+	
+}
+.position,
+.bio,
+.contacts {
+	border-bottom: 1px solid gray;
+}
+
+.contacts span,a{
+	padding-left: 20px;
+	font-size: 12px;
+}
+
+.fio{
+	font-size: 18px;
+	font-family: "Arial";
+	font-weight: 900
+}
+
+.position,
+.bio,
+.contacts,
+.feedback {
+	font-size: 14px;
+	font-family: "Arial"
+}
+
+
+.feedback span {
+	padding-left: 20px;
+	font-size: 12px;
+}
+
+li {color:gray;
+font-size: 12px;
+}
+a {color:blue;}
+
