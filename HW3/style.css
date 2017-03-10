@@ -83,7 +83,7 @@
 	min-height: calc(40vh - 80px);
 }
 
-.footer ul {
+.footer  {
 	  width: 100%;
       float: left;
       margin: 0 0 3em 0;
@@ -112,3 +112,12 @@
       text-decoration: none;
       color: black;
      }
+	 
+	 .footer span {
+		 list-style: none;
+		 float: right;
+		 padding: 8px 66px;
+		
+	 }
+	 
+	 
