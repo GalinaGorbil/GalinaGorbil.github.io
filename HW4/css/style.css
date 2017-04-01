@@ -17,7 +17,7 @@ body {
 	width: 1000px;
 	height: auto;
 	overflow: hidden;
-	box-shadow: 0px 5px 5px 0px rgba(3,29,40,1);
+	box-shadow: 0px 3px 5px 3px rgba(3,29,40,1);
 	background-color: #ffffff;
 }
 
@@ -148,6 +148,7 @@ body {
     background-color: #303030;
     border-bottom: 1px solid #303030;
     border-top: 1px solid #303030;
+	box-shadow: 0px 5px 5px 0px rgba(64,64,64,1);
 	
 	  
 	  }
@@ -167,9 +168,9 @@ ul:after {
     float: none;
       }
 
-/*ul.menu {
+ul.menu {
     box-shadow: 0px 5px 5px 0px rgba(64,64,64,1);
-}*/
+}
 
 		  
 ul.menu > li {
@@ -198,6 +199,11 @@ ul.menu > li > a {
 	background-color: #303030;
 	  
      }
+	 
+ul.menu > li > a > span {
+	font-size: 8px;
+	vertical-align: middle;
+}
 	 
 	ul.submenu  {
 	box-shadow: 0px 5px 5px 0px rgba(64,64,64,1);
@@ -247,6 +253,7 @@ ul.menu > li > a {
 	background: #edeef0;
 	padding-bottom: 20000px;
 	margin-bottom: -20000px;
+	border: 1px solid #c7cacf;
      }
 	 
 .leftColumn p:nth-child(1) {
@@ -271,6 +278,7 @@ ul.menu > li > a {
 	background: #edeef0;
 	padding-bottom: 20000px;
 	margin-bottom: -20000px;
+	border: 1px solid #c7cacf;
      }
 	 
 .rightColumn p:nth-child(1) {
@@ -283,9 +291,8 @@ ul.menu > li > a {
 
 
 .footer {
-	height: 10px;
-    color: #ffffff;
-	padding: 20px;
+	color: #ffffff;
+	padding: 10px;
 	font-size: 12px;
 	text-align: center;
 	 }
