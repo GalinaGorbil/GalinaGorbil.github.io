@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+body {
+	background-color: #282828;
+}
+
+
+table {
+	border-collapse: collapse; /* Убираем двойные линии между ячейками */
+	margin: 185px auto;
+	width: 500px;
+}
+	
+
+td {
+	width: 40px;
+	height: 40px;
+}
+
+td, th {
+	border: 8px solid black; /* Параметры рамки */
+
+}
+
+tr {
+	height: 40px;
+	
+	
+}
+
