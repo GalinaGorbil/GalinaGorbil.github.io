@@ -83,23 +83,27 @@ body {
 
 .menuright li {
     float: left; /* выстраиваем элементы списка в один р€д */
-	list-style: none; /* пр€чем маркеры */	
+	list-style: none; /* пр€чем маркеры */
+    margin-top: 8px;	
 }
 
 .menuright li a {
-	display: block;
-	text-align: center;
+	
+	
 	color: #ffffff;
-	background-position: center top; /* выравниваем фон вверх и по центру */
-	background-repeat: no-repeat;
+	
 	font-size: 14px;
 	text-decoration: none;
 	padding: 10px;
 }
-
+ span {
+	 height: 36px;
+ }
 .menuright li:hover {
     color: #ffffff;
     background-color: #4eabda;
+	height: 30px;
+	background-position: center top; /* выравниваем фон вверх и по центру */
     
 	}
 	
@@ -107,6 +111,7 @@ body {
     color: #ffffff;
     background-color: #4eabda;
     text-decoration: underline;	
+	
 	}
 	
 .forma {
@@ -154,6 +159,45 @@ legend {
 	font-size:14px;
 	
 	}
+	p {
+	 margin: 10px;	
+	}
+	input[type="checkbox"] {
+		margin: 10px;
+	}
+	
+input[type="text"] {
+	box-sizing: border-box;
+	border-bottom: 1px solid #474747;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	background: black;
+	padding: 5px 10px;
+	font-size: 14px;
+	color: #ffffff;
+	
+	
+}
+
+input[type="email"] {
+	box-sizing: border-box;
+	border-bottom: 1px solid #474747;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	background: black;
+	padding: 5px 10px;
+	font-size: 14px;
+	color: #ffffff;
+	
+	
+}
+
+.text {
+	width: 275px;
+}
+	
 .account {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#67c6e6+0,3a8ecd+44,3686ca+100 */
      background: #67c6e6; /* Old browsers */
@@ -161,18 +205,22 @@ legend {
      background: -webkit-linear-gradient(top,  #67c6e6 0%,#3a8ecd 44%,#3686ca 100%); /* Chrome10-25,Safari5.1-6 */
      background: linear-gradient(to bottom,  #67c6e6 0%,#3a8ecd 44%,#3686ca 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#67c6e6', endColorstr='#3686ca',GradientType=0 ); /* IE6-9 */
-	 height:
-	 width:
+	 height: 35px;
+	 width: 150px;
 	 border: none;
 	 margin-top: 30px;
-	 font-family:
 	 font-size: 14px;
 	 color: #ffffff;
-	 margin:
+	 
 	 
 }
 
 .textt {
 	font-size:11px;
 }
+
+.footer {
+	
+	margin-top: -80px;
+	 }
 	
