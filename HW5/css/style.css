@@ -6,7 +6,7 @@
 
 
 body {
-	background: url(../img/background.png) no-repeat;
+	background: url(../img/fon.jpg) no-repeat;
 	/*background-size: 100%;*/
 	background-position: center;
 	height: 1028px;
@@ -154,13 +154,21 @@ legend {
 	font-size:14px;
 	
 	}
-.createaccount {
+.account {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#67c6e6+0,3a8ecd+44,3686ca+100 */
      background: #67c6e6; /* Old browsers */
      background: -moz-linear-gradient(top,  #67c6e6 0%, #3a8ecd 44%, #3686ca 100%); /* FF3.6-15 */
      background: -webkit-linear-gradient(top,  #67c6e6 0%,#3a8ecd 44%,#3686ca 100%); /* Chrome10-25,Safari5.1-6 */
      background: linear-gradient(to bottom,  #67c6e6 0%,#3a8ecd 44%,#3686ca 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#67c6e6', endColorstr='#3686ca',GradientType=0 ); /* IE6-9 */
+	 height:
+	 width:
+	 border: none;
+	 margin-top: 30px;
+	 font-family:
+	 font-size: 14px;
+	 color: #ffffff;
+	 margin:
 	 
 }
 
