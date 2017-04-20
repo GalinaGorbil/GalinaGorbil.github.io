@@ -84,25 +84,20 @@ body {
 .menuright li {
     float: left; /* выстраиваем элементы списка в один р€д */
 	list-style: none; /* пр€чем маркеры */
-    margin-top: 8px;	
+    padding: 9px 0;	
 }
 
 .menuright li a {
 	
 	
 	color: #ffffff;
-	
 	font-size: 14px;
-	text-decoration: none;
 	padding: 10px;
 }
- span {
-	 height: 36px;
- }
+ 
 .menuright li:hover {
     color: #ffffff;
     background-color: #4eabda;
-	height: 30px;
 	background-position: center top; /* выравниваем фон вверх и по центру */
     
 	}
@@ -118,13 +113,39 @@ body {
 	text-align: center;
 	background-color: #1b201d;
 	opacity: 0.7;
+	filter:alpha(opacity=70); -moz-opacity:0.7;
 	margin: 210px auto;
 	background-repeat: no-repeat;
 	width: 560px;
 	height:612px;
 	color: #ffffff;
 	
+	
+	/*position: relative;*/
+	/*padding:20px;*/
+	
+	
 }
+
+
+.forma * { 
+opacity:1; filter:alpha(opacity=100); -moz-opacity:1;
+ }
+
+/*.transparency {
+   
+opacity:0.5;
+filter:alpha(opacity=50);
+-moz-opacity:0.5;
+background-color:#000000;
+width:100%;
+height:100%;
+position:absolute;
+margin:-20px;
+}*/
+
+
+
 
 .cadastre {
 	font-size: 24px;
@@ -137,14 +158,12 @@ body {
 i {
 	font-size: 24px;
 }
-.buttonF {
-	
-}
+
 
 fieldset {
 	height: 430px;
 	width: 276px;
-	margin: 0 140px;
+	margin: 0 auto;
 	border-bottom-color: transparent;
     border-right-color: transparent;
     border-left-color: transparent;
@@ -162,9 +181,50 @@ legend {
 	p {
 	 margin: 10px;	
 	}
-	input[type="checkbox"] {
+	/*input[type="checkbox"] {
 		margin: 10px;
+	}*/
+	.checkbox {
+		display: none;
 	}
+	
+	.checkbox-custom {
+		position: relative;
+	    width: 15px;
+		height: 15px;
+		border: 2px solid #ccc;
+		border-radius: 3px;
+	}
+	
+.checkbox-custom,
+.label {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+label {
+	display: block;
+	padding-right: 50px;
+    padding-top: 10px;
+}
+
+/*input {
+	position: absolute;
+	margin-left: -16px;
+}*/
+
+.checkbox:checked + .checkbox-custom::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	bottom: 2px;
+	left: 2px;
+	background: #fff;
+	border-radius: 2px;
+}
+
 	
 input[type="text"] {
 	box-sizing: border-box;
