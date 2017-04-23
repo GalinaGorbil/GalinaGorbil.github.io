@@ -95,6 +95,7 @@ body {
 	color: #ffffff;
 	font-size: 14px;
 	padding: 10px;
+	text-decoration: none;
 }
  
 .menuright li:hover {
@@ -179,7 +180,7 @@ margin: 0 auto;
 
 i {
 	font-size: 24px;
-	color: black;
+	color: ;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b5497+0,374c8d+40,314375+100 */
 background: rgb(59,84,151); /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(59,84,151,1) 0%, rgba(55,76,141,1) 40%, rgba(49,67,117,1) 100%); /* FF3.6-15 */
