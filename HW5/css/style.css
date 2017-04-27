@@ -264,12 +264,12 @@ p {
 
 .label {
 	/*display: inline-block;*/
-	vertical-align: middle;
+	/*vertical-align: middle;*/
 }
 
 label {
 	display: block;
-	padding-right: 40px;
+	/*padding-right: 40px;*/
     padding-top: 10px;
 }
 
