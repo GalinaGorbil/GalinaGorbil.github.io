@@ -2,35 +2,37 @@
 	margin: 0;
 	padding: 0;
 	font-family: Tahoma Regular, sans-serif;
+	overflow: hidden;
 }
 
 
 body {
 	background: url(../img/fon.jpg) no-repeat;
 	background-position: center;
-	height: 1028px;
+	/*height: 1028px;*/
+	background-size: 100%;
 }
-	
+
 }
 .wrapper {
-	
+
 	margin: auto;
 	width: 1210px;
 	height: auto;
 	overflow: hidden;
 	position: relative;
 	background-position: center;
-	
-	
-	
+
+
+
 	}
 .menu {
-	
+
     margin: 0 auto;
     padding: 0;
     position: relative;
 	height:38px;
-	width: 1215px;
+	/*width: 1215px;*/
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#07508e+0,085393+44,085697+100 */
     background: #07508e; /* Old browsers */
     background: -moz-linear-gradient(top,  #07508e 0%, #085393 44%, #085697 100%); /* FF3.6-15 */
@@ -42,17 +44,18 @@ body {
 
 .menuleft {
     position: absolute;
-    left: 460px;
+    left: 50%;
+		/*460px;*/
 	border-right: #60b5ed 1px solid;
 	padding: 0 10px;
-	    
+
 	}
-	
+
 .menuleft li {
 
-	float: left; /* выстраиваем элементы списка в один ряд */
-	list-style: none; /* прячем маркеры */
-	
+	float: left; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ */
+	list-style: none; /* пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
+
 
 	}
 
@@ -61,30 +64,32 @@ body {
 	display: block;
 	text-align: center;
 	color: #60b5ed;
-	background-position: center top; /* выравниваем фон вверх и по центру */
+	background-position: center top; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
 	background-repeat: no-repeat;
 	font-size: 14px;
 	text-decoration: none;
 	padding: 10px;
 
 	}
-	
+
 .menuleft li a:hover {
     color: #ffffff;
-    background-color: #4eabda; 
+    background-color: #4eabda;
 	}
-	
+
 .menuright {
 	position: absolute;
-    left: 842px
-	
+    left: 75%;
+		/*842px*/
+
+
 }
 .Ola {
-	padding: 0 4px 0; 
+	padding: 0 4px 0;
 	color: #ffffff;
 	font-size: 14px;
 	}
-	
+
 .ou {
 	color: #fff;
 	font-size: 14px;
@@ -92,55 +97,61 @@ body {
 
 
 .menuright li {
-    float: left; /* выстраиваем элементы списка в один ряд */
-	list-style: none; /* прячем маркеры */
-    padding: 9px 0;	
+    float: left; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ */
+	list-style: none; /* пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
+    padding: 9px 0;
 }
 
 .menuright li a {
-	
-	
+
+
 	color: #ffffff;
 	font-size: 14px;
 	padding: 10px;
 	text-decoration: none;
 }
- 
+
 .menuright li:hover {
     color: #ffffff;
     background-color: #4eabda;
-	background-position: center top; /* выравниваем фон вверх и по центру */
-    
+	background-position: center top; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
+
 	}
-	
+
 .menuright li a:hover {
     color: #ffffff;
     background-color: #4eabda;
-    text-decoration: underline;	
-	
+    text-decoration: underline;
+
 	}
-	
+
 .forma {
 	text-align: center;
 	width: 560px;
 	height:612px;
 	color: #ffffff;
-	margin: 210px auto;
+	margin: 210px 0;
+	display: flex;
+  justify-content: flex-end;
+  min-height: 100%;
 	background-repeat: no-repeat;
-	
+
 }
 .formapodlog {
 	background-color: #1b201d;
 	opacity: 0.7;
 	filter:alpha(opacity=70); -moz-opacity:0.7;
-	margin: 210px auto;
+	margin: 210px 0;
 	background-repeat: no-repeat;
 	width: 560px;
 	height:612px;
 	position: absolute;
-	left: 50%;
-    margin-left: -280px;
-	
+	left: 36.8%;
+	display: flex;
+  justify-content: flex-start;
+  min-height: 100%;
+    /*margin-left: -280px;*/
+
 }
 
 .cadastre {
@@ -156,14 +167,14 @@ body {
 }
 
 .button {
-		
-		
+
+
     width: 276px;
     margin-left: 141px;
 	margin-top: 36px;
 
 	}
-	
+
 .fa {
     display: inline-block;
     /*font: normal normal normal 14px/1 FontAwesome;*/
@@ -173,7 +184,7 @@ body {
 }
 
 .fa-facebook {
-    
+
     padding: 6.8px 11px;
     border-left: 1px solid #1f3c76;
     border-top: 1px solid #7788b4;
@@ -182,8 +193,8 @@ body {
     margin-right: -4.4px;
     color: #fff;
     background: linear-gradient( to bottom, #3b5798, #314172);
-    
-    
+
+
     vertical-align: bottom;
 }
 
@@ -232,7 +243,7 @@ fieldset {
 	border-bottom-color: transparent;
     border-right-color: transparent;
     border-left-color: transparent;
-	border-top-color: #999999; 
+	border-top-color: #999999;
 	margin-top: 20px;
 }
 
@@ -243,12 +254,12 @@ legend {
 
 .styletext {
 	font-size:14px;
-	
+
 	}
 p {
-	margin: 15px 0;	
+	margin: 15px 0;
 	}
-	
+
 
 
 label {
@@ -258,47 +269,47 @@ label {
 .label {
 	padding: 0 0 0 3px;
 }
-	
+
 .checkbox {
 	display: none;
 	}
 
-/* ‡адаем внешний вид длЯ нашего кастомного чекбокса. ‚се обЯзательные свойства прокомментированы, остальные же свойства менЯйте по вашему усмотрению */
+/* пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 .checkbox-custom {
-    position: relative;      /* ЋбЯзательно задаем, чтобы мы могли абсолютным образом позиционировать псевдоэлемент внютри нашего кастомного чекбокса */
-    width: 10px;             /* ЋбЯзательно задаем ширину */
-    height: 10px;            /* ЋбЯзательно задаем высоту */
+    position: relative;      /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
+    width: 10px;             /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
+    height: 10px;            /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
     border: 1px solid #fff;
-    
+
 }
- 
-/* Љастомный чекбокс и лейбл центрируем по вертикали. …сли вам это не требуетсЯ, то вы можете убрать свойство vertical-align: middle из данного правила, но свойство display: inline-block обЯзательно должно быть */
+
+/* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ vertical-align: middle пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ display: inline-block пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ */
 .checkbox-custom,
 .label {
     display: inline-block;
     vertical-align: middle;
 }
- 
-/* …сли реальный чекбокс у нас отмечен, то тогда добавлЯем данный признак и к нашему кастомному чекбоксу  */
+
+/* пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ  */
 .checkbox:checked + .checkbox-custom::before {
-    content: "";             /* „обавлЯем наш псевдоэлемент */
-    display: block;          /* „елаем его блочным элементом */
-    position: absolute;      /* Џозиционируем его абсолютным образом */
- 
-    /* ‡адаем расстоЯние от верхней, правой, нижней и левой границы */
+    content: "";             /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
+    display: block;          /* пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
+    position: absolute;      /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
+
+    /* пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
     border:1px solid #adb6bd;
-    background: #dedfe7;     /* „обавлЯем фон. …сли требуетсЯ, можете поставить сюда картинку в виде "галочки", котораЯ будет символизировать, что чекбокс отмечен */
+    background: #dedfe7;     /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ. пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ", пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
     /*border-radius: 2px;*/
 	-webkit-box-shadow: 0px 0px 12px -2px rgba(84,81,84,1);
     -moz-box-shadow: 0px 0px 12px -2px rgba(84,81,84,1);
      box-shadow: 0px 0px 12px -2px rgba(84,81,84,1);
 }
 
-	
+
 input[type="text"] {
 	box-sizing: border-box;
 	border-bottom: 1px solid #474747;
@@ -311,8 +322,8 @@ input[type="text"] {
 	color: #cccccc;
 	height: 35px;
 	width: 275px;
-	
-	
+
+
 }
 
 input[type="text"]:hover {
@@ -321,7 +332,7 @@ input[type="text"]:hover {
 	-webkit-box-shadow: 0px 0px 5px 2px rgba(77,136,177,1);
     -moz-box-shadow: 0px 0px 5px 2px rgba(77,136,177,1);
     box-shadow: 0px 0px 5px 2px rgba(77,136,177,1);
-	
+
 }
 
 input[type="email"] {
@@ -336,7 +347,7 @@ input[type="email"] {
 	color: #cccccc;
 	height: 35px;
 	width: 275px;
-		
+
 }
 
 input[type="email"]:hover {
@@ -345,13 +356,13 @@ input[type="email"]:hover {
 	-webkit-box-shadow: 0px 0px 5px 2px rgba(77,136,177,1);
     -moz-box-shadow: 0px 0px 5px 2px rgba(77,136,177,1);
     box-shadow: 0px 0px 5px 2px rgba(77,136,177,1);
-	
+
 }
 
 .text {
 	width: 275px;
 }
-	
+
 .account {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#67c6e6+0,3a8ecd+44,3686ca+100 */
     background: #67c6e6; /* Old browsers */
@@ -368,12 +379,11 @@ input[type="email"]:hover {
 }
 
 .textt {
-	font-size:11px; 
+	font-size:11px;
 	color: #cccccc;
 }
 
 .footer {
-	
+
 	margin-top: -80px;
 	 }
-	
