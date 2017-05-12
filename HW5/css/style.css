@@ -8,32 +8,19 @@
 
 body {
 	background: url(../img/fon.jpg) no-repeat;
-	background-position: center;
-	/*height: 1028px;*/
-	background-size: 100%;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
-}
-.wrapper {
-
-	margin: auto;
-	width: 1210px;
-	height: auto;
-	overflow: hidden;
-	position: relative;
-	background-position: center;
-
-
-
-	}
-.menu {
+.header {
 
     margin: 0 auto;
     padding: 0;
-    position: relative;
-	height:38px;
-	/*width: 1215px;*/
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#07508e+0,085393+44,085697+100 */
+    display: flex;
+		justify-content: flex-end;
+	  height:38px;
+	    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#07508e+0,085393+44,085697+100 */
     background: #07508e; /* Old browsers */
     background: -moz-linear-gradient(top,  #07508e 0%, #085393 44%, #085697 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top,  #07508e 0%,#085393 44%,#085697 100%); /* Chrome10-25,Safari5.1-6 */
@@ -43,10 +30,7 @@ body {
 }
 
 .menuleft {
-    position: absolute;
-    left: 50%;
-		/*460px;*/
-	border-right: #60b5ed 1px solid;
+  border-right: #60b5ed 1px solid;
 	padding: 0 10px;
 
 	}
@@ -78,9 +62,7 @@ body {
 	}
 
 .menuright {
-	position: absolute;
-    left: 75%;
-		/*842px*/
+
 
 
 }
@@ -98,7 +80,7 @@ body {
 
 .menuright li {
     float: left; /* ����������� �������� ������ � ���� ��� */
-	list-style: none; /* ������ ������� */
+	 list-style: none; /* ������ ������� */
     padding: 9px 0;
 }
 
@@ -125,34 +107,18 @@ body {
 
 	}
 
-.forma {
+form {
 	text-align: center;
-	width: 560px;
 	height:612px;
 	color: #ffffff;
 	margin: 210px 0;
 	display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   min-height: 100%;
 	background-repeat: no-repeat;
 
 }
-.formapodlog {
-	background-color: #1b201d;
-	opacity: 0.7;
-	filter:alpha(opacity=70); -moz-opacity:0.7;
-	margin: 210px 0;
-	background-repeat: no-repeat;
-	width: 560px;
-	height:612px;
-	position: absolute;
-	left: 36.8%;
-	display: flex;
-  justify-content: flex-start;
-  min-height: 100%;
-    /*margin-left: -280px;*/
 
-}
 
 .cadastre {
 	font-size: 24px;
@@ -171,7 +137,7 @@ body {
 
     width: 276px;
     margin-left: 141px;
-	margin-top: 36px;
+	  margin-top: 36px;
 
 	}
 
@@ -214,7 +180,7 @@ body {
     background: linear-gradient( to bottom, #3b5798, #314172);
     line-height: 35px;
     text-decoration: none;
-	font-size: 14px;
+	  font-size: 14px;
     /*padding-right: 59px;*/
 }
 
@@ -227,22 +193,19 @@ span.bold {
 }
 
 .area {
-	position: absolute;
-	z-index: 1;
-	text-align: center;
+
 	width: 560px;
 	height:612px;
-	color: #ffffff;
 	margin: auto;
-	background-repeat: no-repeat;
+	background: rgba( 0, 0, 0, 0.7);
 }
 
 fieldset {
 	width: 276px;
 	margin: 0 auto;
 	border-bottom-color: transparent;
-    border-right-color: transparent;
-    border-left-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
 	border-top-color: #999999;
 	margin-top: 20px;
 }
@@ -260,11 +223,6 @@ p {
 	margin: 15px 0;
 	}
 
-
-
-label {
-	padding:0 40px 0 0;
-}
 
 .label {
 	padding: 0 0 0 3px;
@@ -382,8 +340,3 @@ input[type="email"]:hover {
 	font-size:11px;
 	color: #cccccc;
 }
-
-.footer {
-
-	margin-top: -80px;
-	 }
