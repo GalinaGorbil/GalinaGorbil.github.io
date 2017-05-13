@@ -8,16 +8,34 @@
 body {
   background: url(../img/fon.jpg) no-repeat;
   background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
+	  background-size: cover;
+  /*background-attachment: fixed;*/
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+header {
+
+background: #07508e;
+/* Old browsers */
+background: -moz-linear-gradient(top, #07508e 0%, #085393 44%, #085697 100%);
+/* FF3.6-15 */
+background: -webkit-linear-gradient(top, #07508e 0%, #085393 44%, #085697 100%);
+/* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #07508e 0%, #085393 44%, #085697 100%);
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#07508e', endColorstr='#085697', GradientType=0);
+/* IE6-9 */
 }
 
-header {
+.menu {
   margin: 0 auto;
   padding: 0;
   display: flex;
-  justify-content: flex-end;
-  height: 38px;
+	justify-content: flex-end;
+
+  /*height: 38px;*/
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#07508e+0,085393+44,085697+100 */
   background: #07508e;
   /* Old browsers */
@@ -33,8 +51,9 @@ header {
 
 main {
   display: flex;
-  justify-content: center;
-  min-height: 100vh;
+  /*justify-content: center;*/
+  /*min-height: 100vh;*/
+	flex-grow: 1;
 }
 
 
@@ -105,8 +124,9 @@ form {
   text-align: center;
   height: 612px;
   color: #ffffff;
-  display: flex;
-  align-self: center;
+	margin: auto;
+  /*display: flex;
+  align-self: center;*/
   background-repeat: no-repeat;
 }
 .cadastre {
