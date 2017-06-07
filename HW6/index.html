@@ -18,7 +18,13 @@
 				<form>
 					<input type="text" name="login" placeholder="логин" required>
 					<input type="password" name="pass" placeholder="пароль" required>
-					<span>вход | регистрация</span>
+         <div class="enter">
+					<a href="#">вход</a>
+				</div>
+					<span>|</span>
+				 <div class="reg">
+					<a href="#">регистрация</a>
+				</div>
 				</form>
 				<a href="#">забыли пароль?</a>
 			</div>
@@ -146,6 +152,7 @@
 				</figure>
 			</main>
 			<aside class="right-menu">
+				<form action="handler.php">
 				<div class="right-head">
 					<img src="img/iconka.png" alt="list">
 					<span>БРЕНДЫ:</span>
@@ -168,7 +175,8 @@
 					<li><label><input type="checkbox" name="brand-2-2" id="brand-2-2"><span>Бренд 1</span><label></li>
 					<li><label><input type="checkbox" name="brand-3-2" id="brand-3-2"><span>Бренд 1</span></label></li>
 				</ul>
-				<button type="button">ВЫБРАТЬ</button>
+				<input class="button" type="submit" value="ВЫБРАТЬ">
+			</form>
 			</aside>
 		</div>
 		<ul class="logo">

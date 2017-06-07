@@ -58,15 +58,24 @@ header {
     text-decoration: none;
     color: #ffffff;
 }
+
+.registrform > form > .enter, .reg {
+    display: inline-block;
+    font-size: 10.91px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.enter > a, .reg > a {
+  color: #ffffff;
+  text-decoration: none;
+}
 .registrform input {
     height: 10px;
     width: 110px;
     margin: 0 3px 0 0;
     font-size: 11px;
 }
-.registrform span {
-    font-size: 10.91px;
-}
+
 .registrform > a {
     margin: 0 6.5px 0 15px;
     font-size: 11px;
@@ -86,7 +95,7 @@ header {
 }
 .rightmenu a {
     display: inline-block;
-    margin: 0 2px 3px;
+    margin: 2px 2px 2px 2px;
 }
 
 .logomain {
@@ -328,7 +337,7 @@ nav {
     font: 12.73px 'Lucida Sans Unicode', arial, sans-serif;
     color: #465961;
 }
-button {
+.button {
     margin: 17px 0 0 24px;
     display: inline-block;
     color: #e5e9ea;
