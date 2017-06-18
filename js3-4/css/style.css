@@ -1,0 +1,42 @@
+
+.wrapper {
+    width: 800px;
+    margin-left: 100px;
+    font-family: sans-serif;
+}
+
+[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+    margin-top: 5px;
+    margin-left: 20px;
+    box-shadow: inset 0 0 1px 1px #000;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 45px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+[type="submit"] {
+    width: 329px;
+    height: 55px;
+    margin-top: 50px;
+    margin-left: 150px;
+    background: #CFE2F3;
+    border: 2px solid #000;
+    font-size: 19px;
+}
+
+p {
+    margin: 12px 0;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+label {
+    display: block;
+}
