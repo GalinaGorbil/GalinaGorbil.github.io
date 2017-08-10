@@ -1,0 +1,65 @@
+.wrapper {
+    width: 550px;
+    height: 350px;
+    margin: 50px auto;
+    border: 1px solid #808080;
+}
+
+.main_block {
+    width: 280px;
+    max-height: 330px;
+    overflow: auto;
+    margin: 10px auto 0 auto;
+    border: 1px solid #808080;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+label:first-child{
+    margin-top: 20px;
+}
+
+label:last-child {
+    margin-bottom: 20px;
+}
+
+
+span {
+    width: 70px;
+    display: inline-block;
+}
+
+input[type='button'] {
+    width: 100px;
+    height: 30px;
+    margin-left: 24px;
+    margin-top: 5px;
+}
+
+form {
+    display: flex;
+}
+
+.prompt1,
+.prompt2,
+.prompt3 {
+    border: solid 1px #000;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    opacity: 0;
+    font-size: 15px;
+    text-align: center;
+    line-height: 50%;
+    background: #00FA9A;
+}
+
+.promt_block {
+    margin-top: 13px;
+    width: 220px;
+}
