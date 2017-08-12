@@ -1,0 +1,140 @@
+.wrapper {
+    width: 1200px;
+    margin: 20px auto;
+    border: 3px solid #808080;
+}
+
+.btn {
+  margin-left: 50%;
+  font-size: 30px;
+}
+
+.jcarousel img {
+    height: 530px;
+    width: 400px;
+}
+
+.jcarousel-wrapper {
+  margin-top: 230px;
+}
+
+.niceCheck {
+    width: 17px;
+    height: 17px;
+    margin: 3px;
+    display: inline-block;
+    cursor: pointer;
+    background: url(../img/checkbox.png);
+}
+
+.niceCheck input {
+    display: none;
+}
+
+form span {
+    margin-left: 25px;
+}
+
+.q {
+    display: flex;
+    flex-direction: column;
+}
+
+.w {
+  display: flex;
+  flex-direction: column;
+  clear: both;
+  text-align: right;
+  margin-right: 1080px;
+
+}
+
+
+
+.w input[type=checkbox] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+.w label {
+  cursor: pointer;
+}
+
+.w label:after {
+    content: " ";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url(../img/checkbox.png);
+    position: relative;
+    top: 3px;
+    margin-left: 15px;
+}
+.w input[type=checkbox]:checked + label:after {
+    background-position: 0 -17px;
+}
+
+/*--------------------------Menu-------------------*/
+
+
+
+.menu {
+    display: block;
+    position: relative;
+    width: 1200px;
+    background: #F5F5F5;
+    color: #fff;
+}
+
+.menu ul {
+    display: inline-block;
+    margin-left: 200px;
+    list-style: none;
+}
+
+.menu ul > li {
+    display: inline-block;
+    position: relative;
+    line-height: 28px;
+}
+
+.menu li a {
+    padding: 0 28px;
+    color: #000;
+    text-decoration: none;
+}
+
+li > .submenu {
+    display: none;
+    position: absolute;
+    margin-left: 10px;
+    z-index: 2;
+    background: #F5F5F5;
+}
+
+.submenu li a {
+  margin-right: 40px;
+}
+
+li .sub2 {
+    display: none;
+    position: absolute;
+    margin-left: 120px;
+    z-index: 2;
+    background: #F5F5F5;
+    top: 0;
+}
+
+.submenu ul > li {
+    display: inline-block;
+    position: relative;
+    line-height: 28px;
+}
+
+li .sub3 {
+    display: none;
+    position: absolute;
+    margin-left: 100px;
+    z-index: 2;
+    background: #F5F5F5;
+    top: 0;
+}

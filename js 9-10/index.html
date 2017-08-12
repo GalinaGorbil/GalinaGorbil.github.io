@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>homework_js9-10</title>
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+    <!--MAIN FILE-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <!--SELECT-->
+    <link rel="stylesheet" href="css/jquery.customSelect.css">
+
+    <!--CAROUSEL-->
+
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js" ></script>
+	  <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+	  <script type="text/javascript" src="js/jcarousellite.js"></script>
+    <!--CHECKBOX-->
+    <script src="js/jquery.checkbox.js.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="menu">
+        <ul>
+            <li><a href="#">МОДА</a></li>
+            <li><a href="#">КОЛЛЕКЦИИ<span>&#9660;</span></a>
+                <ul class="submenu">
+                    <li><a href="#">CaterinaLeman</a></li>
+                    <li><a href="#">Sport Angel</a></li>
+                    <li><a href="#">Nebo</a></li>
+                    <li><a href="#">Urban Zen<span>></span></a>
+                        <ul class="sub2">
+                            <li><a href="">Urban1</a></li>
+                            <li><a href="">Urban2</a></li>
+                            <li><a href="">Urban3<span>></span></a>
+                                <ul class="sub3">
+                                    <li><a href="">Idea</a></li>
+                                    <li><a href="">Material</a></li>
+                                    <li><a href="">Video</a></li>
+                                    <li><a href="">Backstage</a></li>
+                                </ul>
+                              </li>
+                            <li><a href="">Urban4</a></li>
+                        </ul>
+                    <li><a href="#">VonaDmytra</a></li>
+                </ul>
+            </li>
+            <li><a href="#">КРАСОТА</a></li>
+            <li><a href="#">УКРАШЕНИЯ</a></li>
+            <li><a href="#">ВИДЕО</a></li>
+        </ul>
+    </div>
+    <div class="jcarousel-wrapper">
+        <div class="jcarousel">
+            <ul>
+                <li><img src="img/1.jpg" height="113px" width="150px" alt=""></li>
+                <li><img src="img/2.jpg" height="113px" width="150px" alt=""></li>
+                <li><img src="img/3.jpg" height="113px" width="150px" alt=""></li>
+                <li><img src="img/4.jpg" height="113px" width="150px" alt=""></li>
+            </ul>
+        </div>
+        <div class="btn">
+                <a href="#" class="prev">&lsaquo;</a>
+                <a href="#" class="next">&rsaquo;</a>
+        </div>
+    </div>
+
+    <form>
+        <div class="container">
+          <h2>A custom-value select</h2>
+          <select id="valueSelect">
+            <option value="100">$100</option>
+            <option value="200">$200</option>
+            <option value="300">$300</option>
+          </select>
+        </div>
+        <div class="container">
+          <h2>A custom-range select</h2>
+          <select id="rangeSelect">
+            <option value="1p">1+ dress</option>
+            <option value="2p">2+ pants</option>
+            <option value="3p">3+ coats</option>
+          </select>
+        </div>
+
+        <script src="js/jquery.customSelect.js"></script>
+
+
+        <div class="q">
+            <p>JQUERY</p>
+            <label class="niceCheck"><input type="checkbox"><span>silk</span></label>
+            <label class="niceCheck"><input type="checkbox"><span>cotton</span></label>
+            <label class="niceCheck"><input type="checkbox"><span>wool</span></label>
+
+        </div>
+        <div class="w">
+            <p>CSS</p>
+            <input type="checkbox" id="test-check1">
+            <label for="test-check1">VonaDmytra:</label>
+            <input type="checkbox" id="test-check2">
+            <label for="test-check2">Urban Zen:</label>
+            <input type="checkbox" id="test-check3">
+            <label for="test-check3">Sport Angel:</label>
+        </div>
+
+        <p><input type="submit" value="Отправить"></p>
+    </form>
+</div>
+
+
+</body>
+</html>
