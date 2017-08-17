@@ -1,0 +1,26 @@
+
+body{
+  width: 800px;
+  margin-left: 70px;
+  background-color:rgba(351,200,158,0.24);
+  overflow: hidden;
+  }
+
+.title {
+ margin-left: 150px;
+
+}
+
+.checkbox{
+  margin-left: 20px;
+  }
+
+.btn{
+ margin: 5px 0 10px 170px;
+ width: 250px;
+}
+
+.question {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
