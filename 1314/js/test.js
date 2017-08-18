@@ -67,7 +67,7 @@ element.classList.add('btn');
 element.classList.add('btn-outline-success');
 element.innerHTML='Проверить мои результаты';
 element.type="button";
-var parentElement=document.querySelector('body');
+var parentElement=document.querySelector('.wrapper');
 parentElement.appendChild(element);
 
 var elemButton = document.getElementsByTagName('button');
