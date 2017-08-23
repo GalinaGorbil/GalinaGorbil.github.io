@@ -96,9 +96,9 @@ gulp.task('fonts:build', function() {
 gulp.task('build', [
     'html:build',
     'js:build',
-    'style:build',gu
+    'style:build',
     'fonts:build',
-    'image:build'
+    // 'image:build'
 ]);
 
 gulp.task('watch', function(){
