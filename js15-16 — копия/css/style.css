@@ -1,0 +1,16 @@
+
+.wrapper {
+  width: 965px; margin: 50px auto;
+}
+#loader {
+  display: none;
+  }
+.green-domain {
+   color: #008000;
+   }
+.search-item {
+  margin-top: 10px;
+  }
+form {
+     text-align: center;
+   }

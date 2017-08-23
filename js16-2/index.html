@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>homework 1314.js</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/stylish.css">
+</head>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>
+  <script src="https://cdn.jsdelivr.net/babel/6.0.20/browser.min.js"></script>
+<div class="wrapper"
+<div id="testWrapper">
+
+</div>
+
+
+
+<script type="text/template" id="Test">
+    <div class="render">
+        <div class="testTitle">
+             <h1 class="header"><%-header%></h1>
+        </div>
+        <div class="testQuestions">
+
+            <% _.forEach (items, function (item){%>
+            <div class="question"><%-item.title%>
+
+                <% _.forEach (item.answers, function (answer){%>
+                    <div class="answer" >
+                         <input class="answ" type="checkbox"/> <%-answer%>
+                    </div>
+
+                <% });%>
+        </div>
+           <% });%>
+        </div>
+    </div>
+</script>
+
+<div class="buttons">
+    <button id="checkbtn" class="button-red" type="submit">Check results</button>
+    <button id="butn" class="button-red">Add question</button>
+</div>
+</div>
+
+<div id="popup">
+<div class="popup__content">
+    <span class="popup__close">&times;</span>
+    <span id="popup__text"></span>
+    <div class="popup__buttons">
+        <button class="popup__buttons-green" type="submit">Try again</button>
+    </div>
+</div>
+</div>
+
+
+ <script src="js/test.js"></script>
+ </div>
+
+</body>
+</html>
