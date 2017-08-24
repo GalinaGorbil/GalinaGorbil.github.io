@@ -45,10 +45,10 @@
         toggleModal();
 
         if (results) {
-            popupMessage.innerHTML = 'All correct, good job!';
+            popupMessage.innerHTML = 'Perfect!';
         }
         else {
-            popupMessage.innerHTML = 'Hmmm, something is wrong';
+            popupMessage.innerHTML = 'Переделывай)))';
         }
         checkboxes.forEach(function (box) {
             box.checked = false;
@@ -108,9 +108,9 @@
 
 // insertion of a sample question to the test page:
     var firstQuestion = {
-            title: '1+1',
-            answers: '2, 3, 4',
-            correct: '1'
+            title: '3+1',
+            answers: '10, 1, 4',
+            correct: '3'
         },
         html = document.querySelector('#questionsList').textContent,
         template = _.template(html),
