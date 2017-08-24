@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+	integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+	crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<script
+	src="https://code.jquery.com/jquery-3.1.1.js"
+	integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+	crossorigin="anonymous"></script>
+	<script src="js/tmpl.js"></script>
+	<script src="js/test.object.js"></script>
+	<script src="js/Rendering.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<script type="text/html" id="it_test">
+		<h3>Тест по программированию</h3>
+		<form>
+			<ol>
+			<% for(var i = 0; i < data.length; i++) { %>
+				<li>
+					<h5><%= data[i].question %></h5>
+					<div>
+						<label>
+							<input type="checkbox">
+							<%= data[i].answer1 %>
+						</label>
+						<br>
+						<label>
+							<input type="checkbox">
+							<%= data[i].answer2 %>
+						</label>
+						<br>
+						<label>
+							<input type="checkbox">
+							<%= data[i].answer3 %>
+						</label>
+					</div>
+					</li>
+					<% }; %>
+				</ol>
+				<div class="center">
+					<button class="btn btn-primary result">Проверить мои результаты</button>
+				</div>
+
+
+				<div class="modale hide">
+					<div class="modale-dialog">
+						<div class="modal-content">
+							<div class="modale-header">
+								<h4 class="modale-title">Ваша оценка за тест.</h4>
+							</div>
+							<div class="modale-body">
+
+							</div>
+							<div class="modale-footer">
+								<button type="button" class="btn btn-default position">Try again</button>
+							</div>
+						</div>
+					</div>
+				</div>
+		</form>
+
+	</script>
+
+</body>
+</html>
