@@ -1,0 +1,36 @@
+
+body{
+   background-image: url(../img/mount.jpg);
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size: 200%;
+
+  }
+.wrapper {
+  width: 800px;
+  font-family: sans-serif;
+  margin: 10px auto;
+  background: white;
+  padding: 10px 30px;
+  box-shadow: 10px 10px 12px 0 rgba(0, 0, 0, .75);
+  }
+
+
+.title {
+ margin-left: 150px;
+
+}
+
+.checkbox{
+  margin-left: 20px;
+  }
+
+.btn{
+ margin: 5px 0 10px 270px;
+ width: 250px;
+}
+
+.question {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
